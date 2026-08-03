@@ -250,3 +250,35 @@ footer{
 }
 
 }
+
+/* ===================================
+            Button
+=================================== */
+
+.button{
+
+display:inline-block;
+
+padding:14px 28px;
+
+background:#444;
+
+color:white;
+
+border-radius:10px;
+
+text-decoration:none;
+
+font-weight:600;
+
+transition:.25s;
+
+}
+
+.button:hover{
+
+background:#222;
+
+color:white;
+
+}
