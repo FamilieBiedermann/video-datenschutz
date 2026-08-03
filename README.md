@@ -73,10 +73,6 @@ Bei Änderungen der Videoüberwachung oder der rechtlichen Rahmenbedingungen wir
 
 ## Stand
 
+© 2026 Anne & Frank Biedermann
+
 Version 1.0
-
-August 2026
-
----
-
-© Anne und Frank Biedermann
