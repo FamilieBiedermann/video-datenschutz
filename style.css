@@ -1,66 +1,252 @@
-body{
+/* =====================================================
+   Datenschutzinformation zur Videoüberwachung
+   Familie Biedermann
+   Version 1.0
+===================================================== */
+
+*{
     margin:0;
-    background:#f3f3f3;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:
+    "Segoe UI",
+    Arial,
+    Helvetica,
+    sans-serif;
+
+    background:#f5f5f3;
+
     color:#333;
-    font-family:Segoe UI,Arial,sans-serif;
-    line-height:1.8;
+
+    line-height:1.7;
+
 }
 
-.container{
-    max-width:950px;
-    margin:40px auto;
-    background:#fff;
+
+/* ===========================
+        Hero
+=========================== */
+
+.hero{
+
+    max-width:900px;
+
+    margin:50px auto;
+
     padding:50px;
-    border-radius:18px;
-    box-shadow:0 8px 25px rgba(0,0,0,.12);
-}
 
-header{
+    background:white;
+
+    border-radius:24px;
+
+    box-shadow:
+    0 15px 35px rgba(0,0,0,.08);
+
     text-align:center;
-    margin-bottom:40px;
+
 }
 
-header img{
-    width:230px;
-    max-width:90%;
+
+.kamera{
+
+    width:100%;
+
+    max-width:420px;
+
+    margin-bottom:35px;
+
 }
 
-h1{
-    font-size:2.3rem;
-    margin-top:20px;
+
+.hero h1{
+
+    font-size:2.4rem;
+
+    margin-bottom:30px;
+
+    color:#222;
+
 }
 
-.subtitle{
-    color:#666;
+
+.einleitung{
+
+    max-width:720px;
+
+    margin:auto;
+
     font-size:1.1rem;
+
+    color:#555;
+
 }
 
-section{
-    margin-top:40px;
+
+/* ===========================
+        Karten
+=========================== */
+
+main{
+
+    max-width:900px;
+
+    margin:auto;
+
+    padding:0 25px 60px;
+
 }
 
-h2{
-    border-left:5px solid #666;
-    padding-left:12px;
-    color:#444;
+
+.karte{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    margin-bottom:30px;
+
+    box-shadow:
+    0 10px 25px rgba(0,0,0,.06);
+
 }
+
+
+.karte h2{
+
+    color:#222;
+
+    font-size:1.5rem;
+
+    margin-bottom:18px;
+
+    padding-bottom:12px;
+
+    border-bottom:2px solid #e5e5e5;
+
+}
+
+
+.karte p{
+
+    margin-bottom:18px;
+
+}
+
+
+.karte ul{
+
+    margin-left:25px;
+
+}
+
+
+.karte li{
+
+    margin-bottom:10px;
+
+}
+
+
+/* ===========================
+        Links
+=========================== */
+
+a{
+
+    color:#1d5fa7;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+}
+
+
+a:hover{
+
+    text-decoration:underline;
+
+}
+
+
+/* ===========================
+        Kontaktkarte
+=========================== */
+
+.kontakt{
+
+    background:#f8f8f8;
+
+    border:2px solid #dedede;
+
+}
+
+
+/* ===========================
+        Footer
+=========================== */
 
 footer{
+
     margin-top:60px;
+
+    padding:40px;
+
     text-align:center;
+
     color:#777;
-    font-size:.9rem;
+
+    font-size:.95rem;
+
 }
+
+
+/* ===========================
+        Mobile
+=========================== */
 
 @media(max-width:700px){
 
-.container{
-    margin:15px;
+.hero{
+
+    margin:20px;
+
     padding:25px;
+
 }
 
-h1{
+.hero h1{
+
     font-size:1.8rem;
+
+}
+
+.karte{
+
+    padding:25px;
+
+}
+
+.karte h2{
+
+    font-size:1.3rem;
+
+}
+
+.einleitung{
+
+    font-size:1rem;
+
 }
 
 }
