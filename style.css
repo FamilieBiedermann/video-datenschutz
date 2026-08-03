@@ -298,3 +298,17 @@ color:white;
     font-style:italic;
 
 }
+
+.footer-ueberschrift {
+
+    font-size: 1.2rem;
+
+    font-weight: 600;
+
+    margin-top: 20px;
+
+    margin-bottom: 8px;
+
+    color: #555;
+
+}
